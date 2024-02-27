@@ -1,0 +1,99 @@
+*{
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Poppins", sans-serif;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.card__container{
+    padding: 30px;
+    height: max-content;
+    border: 1px solid rgb(122, 122, 122);
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+}
+
+img{
+    max-width: 200px;
+    max-height: 2000px;
+}
+
+.card__container p{
+    font-size: 12px;
+}
+
+.card__container span{
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.color{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.color p{
+    font-size: 12px;
+}
+
+.color button{
+    height:20px;
+    width: 20px;
+    border:none;
+    border-radius: 100%;
+    cursor: pointer;
+    transition: all 1s ease;
+    padding: 10px;
+}
+
+.color button:hover{
+    transform: scale(1.5)
+}
+
+#blue{
+    background-color: blue;
+}
+
+#red{
+    background-color: brown;
+}
+
+#black{
+    background-color: black;
+}
+
+.size{
+     display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.size button{
+    min-height:30px;
+    min-width: 30px;
+    border:none;
+    border-radius: 100%;
+    cursor: pointer;
+    font-size: 10px;
+    border: 1px solid gray;
+}
+
+.size button:hover{
+    border: none;
+    background-color: black;
+    color: white;
+}
